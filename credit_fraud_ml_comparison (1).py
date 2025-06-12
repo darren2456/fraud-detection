@@ -25,7 +25,7 @@ st.title("🔍 Credit Card Fraud Detection with Model Comparison")
 # 🔍 Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\User\Downloads\Datasets\creditcard.csv")
+    df = pd.read_csv(r"https://raw.githubusercontent.com/darren2456/fraud-detection/main/creditcard.csv")
     return df
 
 df = load_data()
